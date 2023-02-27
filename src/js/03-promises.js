@@ -46,4 +46,5 @@ refs.form.addEventListener('submit', e => {
         );
       });
   }
+  document.querySelector('button').disabled = true;
 });
